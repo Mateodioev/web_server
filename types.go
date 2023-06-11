@@ -5,3 +5,4 @@ import (
 )
 
 type Middleware func(http.HandlerFunc) http.HandlerFunc
+
